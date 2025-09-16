@@ -1,0 +1,12 @@
+.contenitore {
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    gap: 10px;
+}
+
+.cella {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
