@@ -17,6 +17,19 @@ for (let i = 0; i < NUM_CELLE; i++) {
 }
 
 
+const bombe = []
+
+for (let i = 0; bombe.length < NUM_BOMBE; i++) {
+    let numero = Math.floor(Math.random() * NUM_CELLE)
+    if (!bombe.includes(numero)) {
+        bombe.push(numero)
+    }
+
+}
+console.log(bombe);
+console.log(celle);
+
+
 for (let i = 0; i < NUM_CELLE; i++) {
 
     const nuovoDiv = document.createElement("div")
