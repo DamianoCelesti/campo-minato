@@ -10,3 +10,14 @@
     height: 40px;
     border: 1px solid black;
 }
+
+
+.cella.scoperta {
+    background-color: lightblue;
+}
+
+
+
+.cella.bomba {
+    background-color: red;
+}
